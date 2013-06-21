@@ -1,41 +1,117 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Evergreen by FractasticalLabs</title>
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>evergreen </title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="css/bootstrap.min.css">
+	<link rel="stylesheet" media="screen" href="css/bootstrap-responsive.min.css">
+	<link rel="stylesheet" href="css/main.css">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Evergreen</h1>
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
 
-		<p style="margin-top:70px">Evergreen provides a digital currency supported by real assets. It is an alternative to
-		existing currencies in that it is globally accessible, provides a stable store of value, and
-		supports the global ecosystem. It will be the default currency of the rapidly growing
-		collaborative consumption and crowd funding communities.</p>
+	<header id="head">
+		<div class="container">
+			<a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
+			<ul class="social-links clearfix">
+				<li class="fb"><a href="#"><i>&nbsp;</i>facebook</a></li>
+				<li class="tw"><a href="#"><i>&nbsp;</i>twitter</a></li>
+				<li class="tu"><a href="#"><i>&nbsp;</i>tumblr</a></li>
+				<li class="clearfix"><a href="#myModal" role="button" data-toggle="modal">Login</a></li>
+			</ul>
+		</div>
+		<!-- / container -->
+	</header>
+	<!-- head -->
 
-        <p><a href="work.html">We are hiring.</a></p>
+	<section id="main">
+		<div class="container">
+			<h1>We are building <strong>the earth</strong></h1>
+			<div class="row">
+				<div class="span6">
+					<p><strong><span>E</span></strong> vergreen provides a digitalcurrency supported by real assets. It is an alternative to existing currencies in that it is globally accessible, provides a stable store of value, and supports the global</p>
+				</div>
+				<!-- span6 -->
+				<div class="span6">
+					<p>ecosystem. It will be the default currency of the rapidly growing collaborative consumption and crowd funding communities.</p>
+				</div>
+				<!-- span6 -->
+			</div>
+			<!-- row -->
+			<ul id="main-slider">
+				<li>
+					<a href="http://www.youtube.com/embed/NWgH2JWnVzs?autoplay=1" class="various fancybox.iframe iphone_black"><img src="img/pic_iphone_black.png"></a>
+					<p class="title">Watch how it works</p>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/embed/NWgH2JWnVzs?autoplay=1" class="various fancybox.iframe iphone_black"><img src="img/pic_iphone_black.png"></a>
+					<p class="title">Watch how it works</p>
+				</li>
+			</ul>
+		</div>
+		<!-- container -->
+	</section>
+	<!-- / main -->
+	
+	<section id="download">
+		<div class="container">
+			<h2>Download <span>evergreeen</span> on your iPhone or Android phone</h2>
+			<div class="row">
+				<div class="span4 clearfix">
+					<a href="#" class="pull-right"><i>&nbsp;</i><p>download iPhone</p></a>
+				</div>
+				<!-- span4 -->
+				<div class="span4">
+					<img src="img/logo_big.png" alt="logo">
+				</div>
+				<!-- span4 -->
+				<div class="span4 clearfix">
+					<a href="#" class="pull-left"><i>&nbsp;</i><p>download Android</p></a>
+				</div>
+				<!-- span4 -->
+			</div>
+		</div>
+		<!-- / container -->
+	</section>
+	<!-- download -->
 
+	<footer id="foot">
+		<div class="container">
+			<p class="copyrights">Copyright &copy; 2013 by Evergreen. All Rights Reserved.</p>
+			<div class="social-media">
+				<p>Join us:</p>
+				<ul class="clearfix">
+					<li class="fb"><a href="#">facebook</a></li>
+					<li class="tw"><a href="#">twitter</a></li>
+				</ul>
+			</div>
+			<!-- social-media -->
+		</div>
+		<!-- / container -->
+	</footer>
+	<!-- / foot -->
 
-      </header>
-      <section>
-        <p><img src="http://25.media.tumblr.com/f1b4a938a33523b30c9bb287a44311e5/tumblr_mjpl6zBSWf1s8zar3o1_1280.png" alt="Evergreen"></p>
-		<p>&nbsp;</p>
+	<!-- Modal -->
+	<div id="myModal" class="modal hide fade login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<span>&nbsp;</span>
+		<button class="close" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+		<form>
+			<input type="text" placeholder="Username">
+			<input type="password" placeholder="Password">
+			<button>Sign In</button>
+		</form>
+	</div>
+	<!-- myModal -->
 
-      </section>
-      <footer>
-        <p><small>Credit: GitHub Pages + <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+</body>
 </html>
