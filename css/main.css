@@ -329,16 +329,44 @@ h1 strong {
 
 .iphone_black,
 .iphone_black:focus {
+    display: block;
     position: absolute;
+    width: 329px;
+    height: 757px;
+    padding: 150px 76px 0 89px;
     bottom: -900px;
     left: 50%;
     margin-left: -247px;
     z-index: 9;
     outline: none;
+    background: url(../img/pic_iphone_black.png) no-repeat;
+    background-size: contain;
     -webkit-transition: all 0.5s ease-out; 
     -moz-transition: all 0.5s ease-out; 
     -o-transition: all 0.5s ease-out; 
     transition: all 0.5s ease-out; 
+}
+
+.iphone_black:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 494px;
+    height: 907px;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: url(../img/glare.png) no-repeat;
+    background-size: contain;
+    -webkit-transition: all 0.5s ease-out; 
+    -moz-transition: all 0.5s ease-out; 
+    -o-transition: all 0.5s ease-out; 
+    transition: all 0.5s ease-out; 
+}
+
+.iphone_black img {
+    width: 100%;
+    height: auto;
 }
 
 .inview .iphone_black {
@@ -634,8 +662,12 @@ h2 span {
     }
     .iphone_black,
     .inview .iphone_black {
-        width: 400px;
+        width: 267px;
         margin-left: -200px;
+        padding: 122px 61px 0 72px;
+    }
+    .iphone_black:after {
+        width: 400px;
     }
     .inview .title {
         margin: 135px 340px 0 0;
@@ -707,18 +739,22 @@ h2 span {
     }
     .bx-prev, 
     .bx-next {
-        top: 14px;
+        top: 114px;
     }
     .iphone_black,
     .inview .iphone_black {
-        width: 300px;
+        width: 201px;
         margin-left: -150px;
+        padding: 91px 45px 0 54px;
+    }
+    .iphone_black:after {
+        width: 300px;
     }
     .inview .iphone_black {
-        bottom: -358px;
+        bottom: -558px;
     }
     .inview .iphone_black:hover {
-        bottom: -300px;
+        bottom: -500px;
     }
 }
 
@@ -801,7 +837,7 @@ h2 span {
 }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-    background-image: url('fancybox_sprite.png');
+    background-image: url('../img/fancybox_sprite.png');
 }
 
 #fancybox-loading {
@@ -819,7 +855,7 @@ h2 span {
 #fancybox-loading div {
     width: 44px;
     height: 44px;
-    background: url('fancybox_loading.gif') center center no-repeat;
+    background: url('../img/fancybox_loading.gif') center center no-repeat;
 }
 
 .fancybox-close {
@@ -839,7 +875,7 @@ h2 span {
     height: 100%;
     cursor: pointer;
     text-decoration: none;
-    background: transparent url('blank.gif'); /* helps IE */
+    background: transparent url('../img/blank.gif'); /* helps IE */
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     z-index: 8040;
 }
@@ -909,7 +945,7 @@ h2 span {
     overflow: hidden;
     display: none;
     z-index: 8010;
-    background: url('fancybox_overlay.png');
+    background: transparent;
 }
 
 .fancybox-overlay-fixed {
@@ -988,12 +1024,12 @@ h2 span {
        only screen and (min-device-pixel-ratio: 1.5){
 
     #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-        background-image: url('fancybox_sprite@2x.png');
+        background-image: url('../img/fancybox_sprite@2x.png');
         background-size: 44px 152px; /*The size of the normal image, half the size of the hi-res image*/
     }
 
     #fancybox-loading div {
-        background-image: url('fancybox_loading@2x.gif');
+        background-image: url('../img/fancybox_loading@2x.gif');
         background-size: 24px 24px; /*The size of the normal image, half the size of the hi-res image*/
     }
 }
