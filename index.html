@@ -14,6 +14,14 @@
 	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=349260755195287";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 
 	<header id="head">
 		<div class="container">
@@ -90,8 +98,9 @@
 			<div class="social-media">
 				<p>Join us:</p>
 				<ul class="clearfix">
-					<li class="fb"><a href="https://www.facebook.com/evergreenapp" target="_blank">facebook</a></li>
 					<li class="tw"><a href="http://twitter.com/evrgr" target="_blank">twitter</a></li>
+					<li class="fb"><div class="fb-like" data-href="http://facebook.com/evergreenapp" data-send="false" data-width="450" data-show-faces="false" data-font="tahoma"></div></li>
+
 				</ul>
 			</div>
 			<!-- social-media -->
