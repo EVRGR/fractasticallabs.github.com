@@ -870,7 +870,7 @@ h2 span {
 
 .fancybox-nav {
     position: absolute;
-    top: 0;
+    top: -50px;
     width: 40%;
     height: 100%;
     cursor: pointer;
