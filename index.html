@@ -45,53 +45,6 @@
 			<div class="row">
 				<div class="span6">
 					<p>
-						<script>
-						// Require the basic 2d chart resource: Chart2D
-						dojo.require("dojox.charting.Chart2D");
-
-						// Retrieve the Legend, Tooltip, and MoveSlice classes
-						dojo.require("dojox.charting.action2d.Tooltip");
-						dojo.require("dojox.charting.action2d.MoveSlice");
-
-						// Require the theme of our choosing
-						//"Claro", new in Dojo 1.6, will be used
-						dojo.require("dojox.charting.themes.Claro");
-
-						// Define the data
-						var chartData = [10000,9200,11811,12000,7662,13887,14200,12222,12000,10009,11288,12099];
-
-						// When the DOM is ready and resources are loaded...
-						dojo.ready(function() {
-
-						    // Create the chart within it's "holding" node
-						    var chart = new dojox.charting.Chart2D("chartNode");
-
-						    // Set the theme
-						    chart.setTheme(dojox.charting.themes.Claro);
-
-						    // Add the only/default plot
-						    chart.addPlot("default", {
-						        type: "Pie",
-						        markers: true
-						    });
-
-						    // Add axes
-						    chart.addAxis("x");
-						    chart.addAxis("y", { min: 5000, max: 30000, vertical: true, fixLower: "major", fixUpper: "major" });
-
-						    // Add the series of data
-						    chart.addSeries("Monthly Sales - 2010",chartData);
-
-						    // Create the tooltip
-						    var tip = new dojox.charting.action2d.Tooltip(chart,"default");
-
-						    // Create the slice mover
-						    var mag = new dojox.charting.action2d.MoveSlice(chart,"default");
-
-						    // Render the chart!
-						    chart.render();
-						});
-						</script>
 						
 						</p>
 				</div>

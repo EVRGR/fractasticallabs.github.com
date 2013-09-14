@@ -134,11 +134,11 @@ body {
     font-family: 'ProcionoRegular', serif, georgia;
     font-size: 17px;
     color: #2e2c21;
-    background: #3f3f0e url(../img/bg_landing_mcosti6_high.jpg) center 0 repeat-x;
+    background: #3f3f0e url(../img/bg_landing_mcosti3_high.jpg) center 0 repeat-x;
 }
 
 .ie8 body {
-    background: url(../img/bg_landing_mcosti6_high.jpg) center 0 no-repeat;
+    background: url(../img/bg_landing_mcosti3_high.jpg) center 0 no-repeat;
 }
 
 a {
