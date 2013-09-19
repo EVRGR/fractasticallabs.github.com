@@ -452,6 +452,18 @@ h2 span {
     color: #669927;
 }
 
+h3 {
+    margin: 0 0 18px;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 2px 1px rgba(0, 0, 0, 0.75);
+}
+
+h3 span {
+    color: #669927;
+}
+
 #download .span4 {
     text-align: center;
 }
