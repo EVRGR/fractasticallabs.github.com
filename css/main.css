@@ -156,15 +156,27 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
 }
 
-p {
+.white-background p {
     margin: 0;
-    color: #fff;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	color: #000;
+	padding: 15px 15px 15px 15px;
+	border-radius:10px;
+	background: #fff; /* fallback for browsers that don't understand rgba */
+	border: #solid 10px #000; /* fallback for browsers that don't understand rgba */
+	background-color: rgba(255,255,255,0.6); 
+	border-color: solid 10px rgba(0,0,0,0.2) /*Very transparent black*/
+	
 }
+
 
 #head {
     padding-top: 30px;
     overflow: hidden;
 }
+
+
 
 .logo {
     display: block;
