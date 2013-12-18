@@ -8,11 +8,10 @@
 		init: function() {
 			$("html").removeClass("no-js");
 			App.mainSlider();
-			// Uses waypoint, instead of immediately loading. Don't like.
-			// App.scrollAnimations();
+			App.scrollAnimations();
 			App.popUp();
 			App.toolTip();
-			$('#main-slider').addClass('inview');
+			// $('#main-slider').addClass('inview');
 			
 		},
 
@@ -31,7 +30,7 @@
 			}, {
 				triggerOnce: true,
 				offset: function(){
-					return $(window).height() - $(this).outerHeight() - 100;
+					return $(window).height() - $(this).outerHeight() - 200;
 				}
 			});
 		},
