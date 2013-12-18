@@ -8,9 +8,12 @@
 		init: function() {
 			$("html").removeClass("no-js");
 			App.mainSlider();
-			App.scrollAnimations();
+			// Uses waypoint, instead of immediately loading. Don't like.
+			// App.scrollAnimations();
 			App.popUp();
 			App.toolTip();
+			$('#main-slider').addClass('inview');
+			
 		},
 
 		mainSlider: function() {
