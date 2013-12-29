@@ -383,19 +383,19 @@ h1 strong {
 }
 
 .inview .iphone_black {
-    bottom: -469px;
+    bottom: -419px;
 }
 
 .inview .iphone_black:hover {
     opacity: 1;
-    bottom: -369px;
+    bottom: -319px;
 }
 
 .title {
     display: inline-block;
     position: relative;
     z-index: 11;
-    margin: 103px -1400px 0 0;
+    margin: 53px -1400px 0 0;
     font-family: 'JournalRegular', serif, georgia;
     font-size: 30px;
     color: #fff;
@@ -406,7 +406,7 @@ h1 strong {
 }
 
 .inview .title {
-    margin: 103px 579px 0 0;
+    margin: 53px 579px 0 0;
 }
 
 .title:after {
