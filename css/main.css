@@ -398,12 +398,12 @@ h1 strong {
 }
 
 .inview .iphone_black {
-    bottom: -419px;
+    bottom: -679px;
 }
 
 .inview .iphone_black:hover {
     opacity: 1;
-    bottom: -319px;
+    bottom: -489px;
 }
 
 .title {
@@ -421,7 +421,7 @@ h1 strong {
 }
 
 .inview .title {
-    margin: 53px 579px 0 0;
+    margin: 203px 579px 0 0;
 }
 
 .title:after {
