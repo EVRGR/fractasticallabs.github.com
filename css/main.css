@@ -134,11 +134,11 @@ body {
     font-family: 'ProcionoRegular', serif, georgia;
     font-size: 17px;
     color: #2e2c21;
-    background: #2e2c21 url(../img/bg_landing_nele1.jpg) center 0 repeat-x;
+    background: #2e2c21 url(../img/bg_landing_nele2.jpg) center 0 repeat-x;
 }
 
 .ie8 body {
-    background: url(../img/bg_landing_nele1.jpg) center 0 repeat-x;
+    background: url(../img/bg_landing_nele2.jpg) center 0 repeat-x;
 }
 
 a {
