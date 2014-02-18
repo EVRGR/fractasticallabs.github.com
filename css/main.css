@@ -1175,6 +1175,35 @@ h3 span {
     *zoom: 1;
 }
 
+/*
+ * Extra additions.
+ * 
+ */
+
+.button-style {
+    display: block;
+    height: 72px;
+    padding: 0 28px;
+    border-radius: 20px;
+    font-family: 'HelveticaWorldBold', sans-serif, arial;
+    font-size: 25px;
+	text-align: center;
+    line-height: 72px;
+    color: #fff;
+    background-color: #4d4b42;
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#4d4b42), to(#27251c));
+    background-image: -webkit-linear-gradient(top, #4d4b42, #27251c);
+    background-image:    -moz-linear-gradient(top, #4d4b42, #27251c);
+    background-image:      -o-linear-gradient(top, #4d4b42, #27251c);
+    background-image:         linear-gradient(to bottom, #4d4b42, #27251c);
+    text-shadow: 0 2px 1px rgba(0, 0, 0, 0.75);
+}
+
+.button-style a:hover {
+    text-decoration: none;
+}
+
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -1263,3 +1292,6 @@ h3 span {
         page-break-after: avoid;
     }
 }
+
+
+
