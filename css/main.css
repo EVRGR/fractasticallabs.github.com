@@ -134,11 +134,11 @@ body {
     font-family: 'ProcionoRegular', serif, georgia;
     font-size: 17px;
     color: #2e2c21;
-    background: #2e2c21 url(../img/bg_landing_mcosti9.jpg) center 0 repeat-x;
+    background: #2e2c21 url(../img/bg_landing_nele2.jpg) center 0 repeat-x;
 }
 
 .ie8 body {
-    background: url(../img/bg_landing_mcosti9.jpg) center 0 repeat-x;
+    background: url(../img/bg_landing_nele2.jpg) center 0 repeat-x;
 }
 
 a {
@@ -161,12 +161,28 @@ h1,h2,h3,h4,h5,h6 {
 	-moz-border-radius:10px;
 	-webkit-border-radius:10px;
 	color: #000;
-	padding: 15px 15px 15px 15px;
+	padding: 8px 8px 15px 15px;
 	border-radius:10px;
 	background: #fff; /* fallback for browsers that don't understand rgba */
 	border: #solid 10px #000; /* fallback for browsers that don't understand rgba */
-	background-color: rgba(255,255,255,0.6); 
-	border-color: solid 10px rgba(0,0,0,0.2) /*Very transparent black*/
+	background-color: rgba(255,255,255,0.65); 
+	border-color: solid 10px rgba(0,0,0,0.2); /*Very transparent black*/
+	margin-bottom: 5px;
+	
+}
+
+div .white-background-div {
+    margin: 0;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	color: #000;
+	padding: 8px 8px 15px 15px;
+	border-radius:10px;
+	background: #fff; /* fallback for browsers that don't understand rgba */
+	border: #solid 10px #000; /* fallback for browsers that don't understand rgba */
+	background-color: rgba(255,255,255,0.65); 
+	border-color: solid 10px rgba(0,0,0,0.2); /*Very transparent black*/
+	margin-bottom: 5px;
 	
 }
 
@@ -283,7 +299,7 @@ h1 strong {
  * SLider
  */
  #main-slider {
-    height: 580px;
+    height: 520px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -382,19 +398,19 @@ h1 strong {
 }
 
 .inview .iphone_black {
-    bottom: -469px;
+    bottom: -575px;
 }
 
 .inview .iphone_black:hover {
     opacity: 1;
-    bottom: -369px;
+    bottom: -489px;
 }
 
 .title {
     display: inline-block;
     position: relative;
     z-index: 11;
-    margin: 103px -1400px 0 0;
+    margin: 53px -1400px 0 0;
     font-family: 'JournalRegular', serif, georgia;
     font-size: 30px;
     color: #fff;
@@ -405,7 +421,7 @@ h1 strong {
 }
 
 .inview .title {
-    margin: 103px 579px 0 0;
+    margin: 203px 579px 0 0;
 }
 
 .title:after {
@@ -1159,6 +1175,35 @@ h3 span {
     *zoom: 1;
 }
 
+/*
+ * Extra additions.
+ * 
+ */
+
+.button-style {
+    display: block;
+    height: 72px;
+    padding: 0 28px;
+    border-radius: 20px;
+    font-family: 'HelveticaWorldBold', sans-serif, arial;
+    font-size: 25px;
+	text-align: center;
+    line-height: 72px;
+    color: #fff;
+    background-color: #4d4b42;
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#4d4b42), to(#27251c));
+    background-image: -webkit-linear-gradient(top, #4d4b42, #27251c);
+    background-image:    -moz-linear-gradient(top, #4d4b42, #27251c);
+    background-image:      -o-linear-gradient(top, #4d4b42, #27251c);
+    background-image:         linear-gradient(to bottom, #4d4b42, #27251c);
+    text-shadow: 0 2px 1px rgba(0, 0, 0, 0.75);
+}
+
+.button-style a:hover {
+    text-decoration: none;
+}
+
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -1247,3 +1292,6 @@ h3 span {
         page-break-after: avoid;
     }
 }
+
+
+

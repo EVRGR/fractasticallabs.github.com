@@ -11,6 +11,8 @@
 			App.scrollAnimations();
 			App.popUp();
 			App.toolTip();
+			// $('#main-slider').addClass('inview');
+			
 		},
 
 		mainSlider: function() {
@@ -25,12 +27,14 @@
 		scrollAnimations: function() {
 			$('#main-slider').waypoint(function(){
 				$(this).addClass('inview');
-			}, {
+			}
+			, {
 				triggerOnce: true,
 				offset: function(){
-					return $(window).height() - $(this).outerHeight() - 100;
+					return $(window).height() - $(this).outerHeight() + 400;
 				}
-			});
+			}
+			);
 		},
 
 		popUp: function() {
